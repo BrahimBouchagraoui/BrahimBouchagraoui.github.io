@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brahim | Futur expert-comptable</title>
+<meta name="description" content="Portfolio de Brahim, étudiant en sciences comptables à l'ISCAE, futur expert-comptable.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0c2a2b;--bg2:#103738;--ink:#f1ece0;--mut:#a9bdb6;--gold:#e0b04f;--line:#2a5456;--red:#e57a64}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:'Bricolage Grotesque',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;font-size:17px}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.mono{font-family:'IBM Plex Mono',ui-monospace,monospace}
+.layout{display:grid;grid-template-columns:300px 1fr;min-height:100vh}
+aside{position:sticky;top:0;height:100vh;padding:48px 32px;border-right:1px solid var(--line);background:var(--bg2);display:flex;flex-direction:column;gap:28px}
+aside h1{font-size:44px;line-height:1;font-weight:800;letter-spacing:-.03em}
+aside .role{color:var(--gold);font-weight:600;margin-top:8px}
+aside p{color:var(--mut);font-size:15px}
+aside nav{display:flex;flex-direction:column;gap:4px;margin-top:8px}
+aside nav a{text-decoration:none;color:var(--mut);padding:8px 0;border-bottom:1px solid var(--line);font-size:16px}
+aside nav a:hover{color:var(--gold)}
+aside .foot{margin-top:auto;font-size:13px;color:var(--mut)}
+main{padding:56px clamp(24px,5vw,72px);max-width:920px}
+section{margin-bottom:88px}
+h2{font-size:clamp(30px,4vw,44px);font-weight:800;letter-spacing:-.02em;line-height:1.1;margin-bottom:24px}
+.lead{font-size:clamp(22px,2.6vw,30px);line-height:1.35;font-weight:600;max-width:30ch}
+.lead em{font-style:normal;color:var(--gold)}
+.entry{margin-top:36px;border:1px solid var(--line);border-radius:6px;overflow:hidden;font-size:14px}
+.entry div{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--line)}
+.entry div:last-child{border:0}
+.entry span{padding:12px 16px}
+.entry .h{background:var(--bg2);color:var(--gold)}
+.entry span+span{border-left:1px solid var(--line)}
+.entry .t{background:var(--bg2)}
+.led{width:100%;border-collapse:collapse}
+.led td,.led th{padding:16px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+.led th{font-weight:400;color:var(--gold);width:150px;font-size:14px}
+.led b{display:block;font-size:19px}
+.led small{color:var(--mut);font-size:15px}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;padding:22px 0;display:flex;justify-content:space-between;gap:16px;align-items:baseline;font-size:clamp(22px,3vw,32px);font-weight:600}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--gold);font-family:'IBM Plex Mono',monospace}
+details[open] summary::after{content:"−"}
+details>div{padding:0 0 28px;color:var(--mut);max-width:60ch}
+.shot{aspect-ratio:16/9;margin-top:18px;border:1px dashed var(--line);border-radius:6px;display:grid;place-items:center;font-size:13px;overflow:hidden}
+.shot img{width:100%;height:100%;object-fit:cover}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.tags span{font-size:13px;padding:3px 10px;border:1px solid var(--gold);color:var(--gold);border-radius:3px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px}
+.skills h3{font-size:18px;margin-bottom:10px;color:var(--gold)}
+.skills li{list-style:none;padding:6px 0;border-bottom:1px solid var(--line)}
+.btn{display:inline-block;margin:8px 12px 8px 0;padding:14px 24px;background:var(--gold);color:#1a1a12;font-weight:700;text-decoration:none;border-radius:4px}
+.btn.o{background:none;color:var(--ink);border:1px solid var(--line)}
+.btn:hover{filter:brightness(1.1)}
+.note{color:var(--mut);font-size:14px;margin-top:16px}
+@media(max-width:860px){.layout{grid-template-columns:1fr}aside{position:static;height:auto;border:0;padding:32px 24px;gap:16px}aside nav{flex-direction:row;flex-wrap:wrap;gap:14px}aside nav a{border:0;padding:0}aside .foot{display:none}.led th{width:100px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="layout">
+<aside>
+<div><h1>Brahim</h1><div class="role">Futur expert-comptable</div></div>
+<p>Étudiant en sciences comptables à l'ISCAE, Tunisie.</p>
+<nav>
+<a href="#profil">Profil</a><a href="#parcours">Parcours</a><a href="#projets">Projets</a><a href="#competences">Compétences</a><a href="#contact">Contact</a>
+</nav>
+<div class="foot mono">© 2026 Brahim</div>
+</aside>
+
+<main>
+<section id="profil">
+<p class="lead">Je rends l'information financière <em>fiable</em> et facile à lire.</p>
+<p style="margin-top:24px;color:var(--mut);max-width:58ch">Étudiant en 2ème année de licence en sciences comptables à l'ISCAE (Université de la Manouba) et major de ma promotion en 1ère année. Je me forme à la comptabilité et à la fiscalité tunisiennes, et j'utilise des outils digitaux (ERP, Power BI, Excel) pour analyser et présenter les chiffres.</p>
+<div class="entry mono">
+<div class="h"><span>Débit</span><span>Crédit</span></div>
+<div><span>Rigueur</span><span>Information financière fiable</span></div>
+<div><span>Curiosité pour la fiscalité</span><span></span></div>
+<div><span>Maîtrise des outils digitaux</span><span></span></div>
+<div class="t"><span>Total : ce que j'apporte</span><span>Total : ce que je produis</span></div>
+</div>
+<div style="margin-top:28px">
+<a class="btn" href="#contact">Me contacter</a>
+<a class="btn o" href="#projets">Voir mes projets</a>
+<!-- Ajoute ton CV dans le dépôt sous le nom cv.pdf, puis décommente : -->
+<!-- <a class="btn o" href="cv.pdf" download>Télécharger mon CV</a> -->
+</div>
+</section>
+
+<section id="parcours">
+<h2>Parcours</h2>
+<table class="led">
+<tr><th class="mono">2026</th><td><b>Stage en comptabilité et fiscalité</b><small>Cabinet Mehdi Ellouz, Ennasr, Ariana. Missions comptables et fiscales (à détailler), SAP/GL, Axeane Kompta.</small></td></tr>
+<tr><th class="mono">En cours</th><td><b>Licence en sciences comptables, 2ème année</b><small>ISCAE, Université de la Manouba. Objectif : devenir expert-comptable.</small></td></tr>
+<tr><th class="mono">1ère année</th><td><b>Major de promotion</b><small>Premier de ma classe en 1ère année de licence.</small></td></tr>
+</table>
+<p class="note">Remplace les parties « à détailler » par tes vraies missions, sans noms de clients ni chiffres réels.</p>
+</section>
+
+<section id="projets">
+<h2>Projets</h2>
+<details open><summary>PFE : IA et fiabilité des ERP</summary><div>Étude de l'apport de l'intelligence artificielle à la fiabilité des systèmes ERP dans la production de l'information financière.
+<div class="tags"><span>IA</span><span>ERP</span><span>Audit</span></div>
+<div class="shot">Ajoute une image ici</div></div></details>
+<details><summary>Exposé : fusions-acquisitions</summary><div>Étude de cas chiffrée, aspects comptables et fiscaux en Tunisie, et rôle de l'expert-comptable dans l'opération.
+<div class="tags"><span>M&amp;A</span><span>Fiscalité</span><span>Étude de cas</span></div>
+<div class="shot">Ajoute une image ici</div></div></details>
+<details><summary>Tableau de bord Power BI</summary><div>Exemple de tableau de bord financier avec des données fictives. Décris ton objectif et ce que tu as appris.
+<div class="tags"><span>Power BI</span><span>Data</span></div>
+<div class="shot">Ajoute une image ici</div></div></details>
+<p class="note">Pour une image : mets-la dans le dépôt (ex. <code>projet1.png</code>) et remplace « Ajoute une image ici » par <code>&lt;img src="projet1.png" alt="Description"&gt;</code>. Utilise uniquement des données fictives.</p>
+</section>
+
+<section id="competences">
+<h2>Compétences</h2>
+<div class="skills">
+<div><h3>Comptabilité et données</h3><ul><li>SAP / GL</li><li>Axeane Kompta</li><li>Excel</li><li>Power BI</li></ul></div>
+<div><h3>Création digitale</h3><ul><li>Canva</li><li>CapCut</li></ul></div>
+<div><h3>Langues</h3><ul><li>Français</li><li>Anglais</li><li>Arabe (dialecte tunisien)</li></ul></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p style="color:var(--mut);margin-bottom:16px">Un stage, une opportunité, une question ? Écris-moi.</p>
+<a class="btn" href="mailto:ton.email@exemple.com">Envoyer un email</a>
+<a class="btn o" href="https://www.linkedin.com/in/ton-profil" target="_blank" rel="noopener">LinkedIn</a>
+<p class="note">Remplace <code>ton.email@exemple.com</code> et le lien LinkedIn par les tiens.</p>
+</section>
+</main>
+</div>
+</body>
+</html>
