@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brahim Bouchagraoui | Futur expert-comptable</title>
+<meta name="description" content="Portfolio de Brahim Bouchagraoui, étudiant en sciences comptables à l'ISCAE, ancien président de l'ISCAE Accounting Club.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<style>
+:root{--bg:#081c1d;--card:#0f2829;--line:#24474a;--ink:#eef2ee;--mut:#9db5ae;--a:#e0b04f;--b:#2dd4bf;--btn:#1a1a12;--glow1:rgba(224,176,79,.16);--glow2:rgba(45,212,191,.12)}
+[data-theme="light"]{--bg:#f6f4ee;--card:#fff;--line:#dcd7c8;--ink:#14302f;--mut:#51696a;--a:#9a6a12;--b:#0f766e;--btn:#fff;--glow1:rgba(224,176,79,.22);--glow2:rgba(45,212,191,.14)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:'Bricolage Grotesque',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;font-size:17px;background-image:radial-gradient(55rem 38rem at 90% -8%,var(--glow1),transparent 60%),radial-gradient(45rem 32rem at -8% 45%,var(--glow2),transparent 60%);background-repeat:no-repeat}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--a);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1060px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:66px;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800}
+.logo i{font-style:normal;display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--a),var(--b));color:#10201f;font-size:14px}
+nav ul{display:flex;gap:24px;list-style:none;padding:0;overflow-x:auto}
+nav li a{color:var(--mut);font-size:15px;white-space:nowrap;padding:6px 0;border-bottom:2px solid transparent}
+nav li a:hover,nav li a.on{color:var(--ink);border-color:var(--a)}
+#tg{width:40px;height:40px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;font-size:18px;flex:none}
+.hero{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:center;padding:88px 0 56px}
+.hello{color:var(--b);font-weight:700;margin-bottom:6px}
+.hero h1{font-size:clamp(42px,6.6vw,74px);line-height:1.05;font-weight:800;letter-spacing:-.03em}
+.hero h2{font-size:clamp(22px,3vw,32px);font-weight:700;margin:10px 0 22px;background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.t{color:var(--mut);max-width:54ch}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{padding:13px 26px;border-radius:999px;font-weight:700;border:1px solid var(--line)}
+.btn.p{background:linear-gradient(135deg,var(--a),var(--b));border-color:transparent;color:#10201f}
+.btn:hover{filter:brightness(1.1)}
+.soc{display:flex;gap:12px;margin-top:22px}
+.soc a{width:46px;height:46px;border-radius:12px;border:1px solid var(--line);background:var(--card);display:grid;place-items:center;font-weight:800;font-size:15px}
+.soc a:hover{border-color:var(--a)}
+.soc svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.avatar{justify-self:center;width:min(300px,70vw);aspect-ratio:1;border-radius:50%;padding:14px;background:conic-gradient(from 200deg,var(--a),var(--b),#8fe3c0,var(--a));display:grid}
+.avatar span{display:grid;place-items:center;border-radius:50%;border:6px solid var(--bg);background:linear-gradient(135deg,#14504f,#0c3b3a);color:#fff;font-size:clamp(60px,10vw,92px);font-weight:800}
+/* Photo : remplace le <span> par <img src="photo.jpg" alt="Brahim"> */
+.avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover;object-position:center 18%;border:6px solid var(--bg)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:24px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px 12px;text-align:center}
+.stat b{display:block;font-size:36px;color:var(--a);line-height:1.2}
+.stat span{color:var(--mut);font-size:14px}
+section{padding:64px 0}
+h3.s{font-size:32px;font-weight:800;letter-spacing:-.02em;margin-bottom:6px}
+.sub{color:var(--mut);margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
+.card h4{font-size:19px;line-height:1.3;margin-bottom:4px}
+.meta{color:var(--b);font-size:14px;margin-bottom:10px}
+.card p,.card li{color:var(--mut);font-size:15px}
+.card ul{padding-left:18px;margin-top:8px}
+.tl{display:grid;gap:18px}
+.tl .card{border-left:3px solid var(--a)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.tags span{font-size:13px;padding:4px 12px;border-radius:999px;background:color-mix(in srgb,var(--a) 14%,transparent);border:1px solid color-mix(in srgb,var(--a) 40%,transparent)}
+.shot{aspect-ratio:16/9;border-radius:10px;margin-bottom:16px;border:1px dashed var(--line);display:grid;place-items:center;color:var(--mut);font-size:13px;overflow:hidden}
+.shot img{width:100%;height:100%;object-fit:cover}
+.cert .meta{margin:0}
+.note{color:var(--mut);font-size:14px;margin-top:18px}
+.list{padding:0}.list li{list-style:none;padding:7px 0;border-bottom:1px solid var(--line)}
+details{margin-top:24px}summary{cursor:pointer;font-weight:700}
+#contact{text-align:center}#contact .btns{justify-content:center}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--mut);font-size:14px;text-align:center}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:48px}.avatar{order:-1;width:200px}.stats{grid-template-columns:repeat(2,1fr)}nav ul{gap:16px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="logo" href="#apropos"><i>BB</i>Brahim</a>
+<ul>
+<li><a href="#apropos" class="on">À propos</a></li><li><a href="#experience">Expérience</a></li><li><a href="#projets">Projets</a></li><li><a href="#competences">Compétences</a></li><li><a href="#certifications">Certifications</a></li><li><a href="#contact">Contact</a></li>
+</ul>
+<button id="tg" aria-label="Changer de thème" title="Clair / sombre">◐</button>
+</nav></div></header>
+
+<main>
+<div class="wrap" id="apropos">
+<div class="hero">
+<div>
+<p class="hello">Bonjour, je suis</p>
+<h1>Brahim Bouchagraoui</h1>
+<h2>Futur expert-comptable</h2>
+<p class="t">Étudiant en 3ème année de licence en sciences comptables à l'ISCAE (Université de la Manouba), 1er de ma promotion en 1ère année et ancien président de l'ISCAE Accounting Club. Je m'intéresse à la comptabilité, à la fiscalité, au prix de transfert et à l'ESG, et je m'appuie sur Excel et Power BI pour analyser les chiffres.</p>
+<div class="btns"><a class="btn p" href="#contact">Me contacter</a><a class="btn" href="#projets">Voir mes projets</a></div>
+<div class="soc">
+<a href="mailto:brahimforbusiness04@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+<a href="https://www.linkedin.com/in/ton-profil" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+<a href="cv.pdf" download aria-label="Télécharger mon CV"><svg viewBox="0 0 24 24"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg></a>
+</div>
+</div>
+<div class="avatar"><img src="photo.jpg" alt="Brahim Bouchagraoui" onerror="this.outerHTML='<span>BB</span>'"></div>
+</div>
+<div class="stats">
+<div class="stat"><b>1er</b><span>de ma promotion (L1)</span></div>
+<div class="stat"><b>70+</b><span>membres dirigés</span></div>
+<div class="stat"><b>10+</b><span>certifications</span></div>
+<div class="stat"><b>C1</b><span>anglais (EF SET)</span></div>
+</div>
+</div>
+
+<section id="experience"><div class="wrap">
+<h3 class="s">Expérience</h3><p class="sub">Stages, associatif et formation.</p>
+<div class="tl">
+<div class="card"><h4>Stagiaire, Cabinet Mehdi Ellouz</h4><div class="meta">Juin – juil. 2026 · Ennasr, Ariana</div>
+<ul><li>Saisie des écritures d'achat et de vente sur Sage 100</li><li>Déclarations fiscales et sociales (IRPP, IS, acomptes provisionnels, paie)</li><li>Justification des comptes fournisseurs et clients, audit des pièces justificatives</li><li>Participation à une mission de prix de transfert</li></ul></div>
+<div class="card"><h4>Président, ISCAE Accounting Club</h4><div class="meta">Sept. 2025 – juin 2026</div>
+<ul><li>Direction d'une équipe de 70+ membres et pilotage de SEEC 4.0</li><li>Club nommé meilleur club de l'ISCAE et 3ème meilleur club parmi près de 60 clubs du Pôle Universitaire de la Manouba</li></ul></div>
+<div class="card"><h4>Saisonnier, La Poste Tunisienne</h4><div class="meta">Juil. – sept. 2025</div>
+<ul><li>Classement des pièces comptables, accueil au guichet</li><li>Opérations financières quotidiennes (dépôts, retraits, mandats, comptes d'épargne)</li></ul></div>
+<div class="card"><h4>Business development, ISCAE Accounting Club</h4><div class="meta">Oct. 2024 – juin 2025 · membre puis vice-président</div>
+<ul><li>Dossier de sponsoring et développement du portefeuille de partenaires</li><li>Négociations et suivi des collaborations externes</li></ul></div>
+<div class="card"><h4>Licence en sciences comptables</h4><div class="meta">ISCAE, Université de la Manouba · 2024 – en cours</div>
+<p>1ère année : mention Bien, 1er de promotion. 2ème année : mention Bien, 3ème de promotion. Baccalauréat mathématiques, Lycée Mahmoud Al Messaadi, Le Bardo (2024).</p></div>
+</div></div></section>
+
+<section id="projets"><div class="wrap">
+<h3 class="s">Projets</h3><p class="sub">Ce que je n'ai pas la place de détailler dans mon CV.</p>
+<div class="grid">
+<div class="card"><div class="shot">Ajoute une image ici</div><h4>Canopia : mesurer le carbone des PME</h4>
+<p>Projet éligible au Statut National de l'Étudiant Entrepreneur (niveau Initiateur), validé par le Pôle de l'Étudiant Entrepreneur de l'Université de la Manouba. Il aide les PME tunisiennes exportatrices à mesurer leurs émissions de carbone et à fournir à leurs clients européens des données traçables, alors que le MACF / CBAM est en phase définitive en 2026.</p>
+<div class="tags"><span>ESG</span><span>Carbone</span><span>MACF / CBAM</span></div></div>
+<div class="card"><div class="shot">Ajoute une image ici</div><h4>SEEC 4.0</h4>
+<p>Événement académique et professionnel d'envergure nationale, organisé en tant que président du club. Il rapproche les étudiants de Licence et de Master des professionnels de l'expertise comptable, de l'audit et de la finance.</p>
+<div class="tags"><span>Gestion de projet</span><span>Leadership</span><span>Événementiel</span></div></div>
+<div class="card"><div class="shot">Ajoute une image ici</div><h4>PFE : IA et fiabilité des ERP</h4>
+<p>Étude de l'apport de l'intelligence artificielle à la fiabilité des systèmes ERP dans la production de l'information financière.</p>
+<div class="tags"><span>IA</span><span>ERP</span><span>Audit</span></div></div>
+<div class="card"><div class="shot">Ajoute une image ici</div><h4>Exposé : fusions-acquisitions</h4>
+<p>Étude de cas chiffrée, aspects comptables et fiscaux en Tunisie, et rôle de l'expert-comptable dans l'opération.</p>
+<div class="tags"><span>M&amp;A</span><span>Fiscalité</span><span>Étude de cas</span></div></div>
+</div>
+<p class="note">Pour une image : mets-la dans le dépôt (ex. <code>projet1.png</code>) et remplace « Ajoute une image ici » par <code>&lt;img src="projet1.png" alt="Description"&gt;</code>.</p>
+</div></section>
+
+<section id="competences"><div class="wrap">
+<h3 class="s">Compétences</h3><p class="sub">Outils, savoir-faire et langues.</p>
+<div class="grid">
+<div class="card"><h4>Comptabilité et fiscalité</h4><div class="tags"><span>Sage 100</span><span>Saisie comptable</span><span>Déclarations fiscales et sociales</span><span>Justification des comptes</span></div></div>
+<div class="card"><h4>Données et outils</h4><div class="tags"><span>Excel avancé</span><span>Power BI</span><span>Canva</span><span>CapCut</span></div></div>
+<div class="card"><h4>Savoir-faire humains</h4><div class="tags"><span>Leadership</span><span>Gestion de projet</span><span>Communication</span><span>Prise de décision</span></div></div>
+<div class="card"><h4>Langues</h4><div class="tags"><span>Français</span><span>Anglais (C1)</span><span>Arabe</span></div></div>
+<div class="card"><h4>Engagement et intérêts</h4><ul><li>Marathon (42,2 km) finisher, COMAR et HAYETT, déc. 2024</li><li>Semi-marathon Nourane pour la prévention du cancer, nov. 2024</li><li>Course à pied, échecs, instruments de musique</li></ul></div>
+</div></div></section>
+
+<section id="certifications"><div class="wrap">
+<h3 class="s">Certifications</h3><p class="sub">Finance, Excel, ESG, IA et entrepreneuriat.</p>
+<div class="grid cert">
+<div class="card"><h4>Discounted Cash Flow Valuation</h4><div class="meta">365 Financial Analyst · nov. 2026</div></div>
+<div class="card"><h4>Investment Banking Job Simulation</h4><div class="meta">Bank of America · nov. 2026</div></div>
+<div class="card"><h4>Prix de transfert</h4><div class="meta">Cabinet Mehdi Ellouz · juil. 2026</div></div>
+<div class="card"><h4>Certificate in ESG Reporting</h4><div class="meta">The ESG Institute · juil. 2026</div></div>
+<div class="card"><h4>Generative AI : Prompt Engineering Basics</h4><div class="meta">IBM · juin 2026</div></div>
+<div class="card"><h4>Excel Skills for Business : Intermediate I</h4><div class="meta">Macquarie University · juin 2026</div></div>
+<div class="card"><h4>Excel avancé</h4><div class="meta">DIGINOVA · mars 2026</div></div>
+<div class="card"><h4>Introduction to Excel</h4><div class="meta">365 Data Science · nov. 2025</div></div>
+<div class="card"><h4>Excel pour l'analyse des données</h4><div class="meta">Macquarie University · juin 2025</div></div>
+<div class="card"><h4>Be Entrepreneurial</h4><div class="meta">INJAZ Tunisia · sept. 2024</div></div>
+<div class="card"><h4>Our Region Program</h4><div class="meta">INJAZ Tunisia · août 2024</div></div>
+</div>
+<details><summary>Formations et conférences suivies</summary>
+<ul class="list" style="margin-top:12px;color:var(--mut)">
+<li>Public Speaking (oct. 2024)</li>
+<li>Sponsoring et gestion des partenariats, ISCAE Accounting Club (nov. 2024)</li>
+<li>Le rôle de l'expert-comptable dans les opérations M&amp;A (avr. 2025)</li>
+<li>Audit IT et systèmes d'information, KPMG Tunisia (oct. 2025)</li>
+<li>Training Day, EY Tower : audit, TCF, Tax et carrières</li>
+<li>Analyse des données avec Power BI (mars 2026)</li>
+<li>Comptabilité à l'ère de l'IA, Axeane Kompta (mai 2026)</li>
+<li>Séminaire « Lutte contre la fraude à l'ère de l'IA »</li>
+</ul></details>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h3 class="s">Contact</h3><p class="sub">Un stage, une opportunité, une question ? Écris-moi.</p>
+<div class="btns"><a class="btn p" href="mailto:brahimforbusiness04@gmail.com">Envoyer un email</a><a class="btn" href="https://www.linkedin.com/in/ton-profil" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="cv.pdf" download>Télécharger mon CV</a></div>
+</div></section>
+</main>
+<footer><div class="wrap">© 2026 Brahim Bouchagraoui</div></footer>
+<script>
+document.getElementById('tg').onclick=function(){var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}};
+var L=document.querySelectorAll('nav li a'),S=[...L].map(function(a){return document.querySelector(a.getAttribute('href'))});
+addEventListener('scroll',function(){var y=scrollY+120,c=0;S.forEach(function(s,i){if(s&&s.offsetTop<=y)c=i});L.forEach(function(a,i){a.classList.toggle('on',i===c)})},{passive:true});
+</script>
+</body>
+</html>
